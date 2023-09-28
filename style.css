@@ -1,0 +1,1365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(132, 190, 231); */
+    background-color: black;
+}
+.left{
+    width: 45%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.left a{
+    font-size: 24px;
+    color: white;
+    font-size: 20px;
+}
+.left a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.heading{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.heading h2{
+    font-size: 30px;
+    color: white;
+}
+.heading h6{
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.right{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.select{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.select select{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+.select h6{
+    font-size: 20px;
+}
+.select button{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+}
+.icon-div{
+    width: 10%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.box{
+   width: 50px;
+   height: 50px;
+   border: 2px solid white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   cursor: pointer;
+}
+.box i{
+    font-size:30px;
+    color: white;
+}
+.box i:hover{
+    transition: all ease-in-out;
+    transform: scaleX(120%);
+    filter: grayscale(100%);
+    color: white;
+}
+
+/* main - page */
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.first{
+    width: 90%;
+    height: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+.first-bg{
+    width: 100%;
+    height: 600px;
+    /* background: url(/Figma/image/kashmir1.webp); */
+    background: url('https:/source.unsplash.com/random/?kashmir,hills,rivers,now mountain');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.content-left{
+    width: 48%;
+    height: auto;
+}
+.content-right{
+    width: 48%;
+    height: auto;
+}
+.content p{
+    font-size: 20px;
+    word-spacing: 2.5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* second */
+
+.second{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#img1{
+    width: 32%;
+    height: auto;
+    background: url('https:/source.unsplash.com/random/?kashmir hills');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+#img2{
+    width: 32%;
+    height: auto;
+    background: url('https:/source.unsplash.com/random/?Kashmir river');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+#img3{
+    width: 32%;
+    height: auto;
+    background: url('https:/source.unsplash.com/random/?Kashmir adventure');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.img:hover{
+    cursor: pointer;
+    transition: all ease-in-out;
+    transform:scale(120%);
+    filter:grayscale(100%);
+}
+
+/* map */
+
+.map{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    width: 100%;
+    height: 500px;
+    
+}
+
+/* Service */
+.service{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.include{
+    width: 48%;
+    height: auto;
+    background: url(./image/include.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.include ul{
+    width: 30%;
+    height: 300px;
+    list-style:decimal;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.include h3{
+    font-size: 40px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 900;
+}
+.not-include{
+    width: 48%;
+    height: auto;
+    background: url(./image/not.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.not-include ul{
+    width: 45%;
+    height: 300px;
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.not-include h3{
+    font-size: 40px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 900;
+}
+
+/* operatore */
+
+.operator{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.op{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-op{
+    width: 48%;
+    height: auto;
+    text-align: justify;
+}
+.heading-op{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.heading-op h2{
+    font-size: 60px;
+}
+.left-op h6{
+    font-size: 25px;
+    color: black;
+}
+.right-op{
+    width: 48%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+.right-op iframe{
+    width: 100%;
+    height: 860px;
+}
+
+
+/* tour gallery */
+
+.tour-gallery{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.gallery{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(2,500px);
+    gap: 10px;
+}
+.heading-ga{
+    width: 100%;
+    height: 100px;
+}
+.heading-ga h2{
+    font-size: 60px;
+}
+.tour:first-child{
+    background:url('https:/source.unsplash.com/random/?river');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour:nth-child(2){
+    background: url('https:/source.unsplash.com/random/?snow mountain');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour:nth-child(3){
+    background: url('https:/source.unsplash.com/random/?tree in Kashmir');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour:nth-child(4){
+    background: url('https:/source.unsplash.com/random/?kashmir night');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour:nth-child(5){
+    background: url('https:/source.unsplash.com/random/?kashmir night hills');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour:nth-child(6){
+    background: url('https:/source.unsplash.com/random/?kashmir night view');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour:hover{
+    transition: all ease-in-out 1.5s;
+    transform: scale(120%);
+    filter:contrast(160%);
+    cursor: pointer;
+}
+
+
+/* reviews */
+
+.reviews{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading-re{
+    width: 100%;
+    height: 100px;
+}
+.heading-re h2{
+    font-size: 60px;
+    text-align: start;
+}
+.tour-review{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.left-re{
+    width: 50%;
+    height: 400px;
+}
+.one{
+    width: 90%;
+    height: auto;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo img{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.re{
+    width:80%;
+    height: auto;
+}
+.left-re span{
+   font-size: 20px;
+}
+.left-re .yellow{
+    font-size: 20px;
+    color: yellow;
+}
+.right-re{
+    width: 50%;
+    height: 400px;
+}
+.right-re .yellow{
+    color: yellow;
+    font-size: 20px;
+}
+.right-re span{
+    font-size: 20px;
+}
+
+
+
+/* frequently asked quetions */
+
+.freq-ques{
+    width: 90%;
+    height: auto;
+}
+.heading-freq{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.heading-freq{
+    font-size: 40px;
+}
+.ques-list{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.ques{
+    width:100%;
+    height: 120px;
+}
+.ques h5{
+    font-size: 20px;
+}
+.ques p{
+    font-size: 18px;
+}
+
+
+
+/* Similar Tour */
+
+.similar{
+    width: 90%;
+    height: 700px;
+   
+}
+.simi-pic{
+    /* height: 500px; */
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    grid-template-rows: repeat(1,500px);
+    gap: 20px;
+}
+.simi-de h3 br{
+    display: none;
+}
+.heading-simi{
+    width: 100%;
+    height: 100px;
+}
+.heading-simi h2{
+    font-size: 40px;
+}
+.simi:first-child{
+    /* background: url('https:/source.unsplash.com/random/?kashmir night view'); */
+    background: url('https:/source.unsplash.com/random/?manali & Kullu');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.simi:nth-child(2){
+    background: url('https:/source.unsplash.com/random/?Kedarnath&badrinath');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.simi:nth-child(3){
+    background: url('https:/source.unsplash.com/random/?rishikesh&haridwar');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.simi-details{
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    grid-template-rows: repeat(1,300px);
+    gap: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.simi-de h3{
+    font-size: 25px;
+}
+.simi-de a{
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.simi-de a:hover{
+    color: rgb(77, 124, 167);
+    text-decoration: underline;
+}
+
+
+
+/* Footer section */
+
+footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-footer{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.sec1{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-left: 10px;
+}
+.sec1 h3{
+    font-size: 37px;
+    color: white;
+}
+.sec1 p{
+    font-size: 20px;
+    color: white;
+}
+.sec1 span{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.sec1 input{
+    width: 70%;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 2px ;
+    color: white;
+}
+.sec1 button{
+    width: 25%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+
+}
+.sec2{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec2 h4{
+    font-size: 30px;
+    color: white;
+}
+.sec2 ul{
+    height: 200px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    color: white;
+}
+.sec2 ul li a:hover{
+    font-weight: 600;
+    border-bottom: 2px solid white;
+}
+.sec3{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec3 h4{
+    font-size: 30px;
+    color: white;
+}
+.sec3 ul{
+    height: 200px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec3{
+    width: 20%;
+    height: auto;
+}
+.sec3 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    color: white;
+}
+.sec3 ul li a:hover{
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+.sec4{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec4 h4{
+    font-size: 30px;
+    color: white;
+}
+.icon-con{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-con i{
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.icon-con i:hover{
+    transition: all ease-in-out;
+    transform: scale(160%);
+    filter: grayscale(100%);
+}
+
+
+/* Responsive */
+
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .nav{
+        width: 100%;
+        height: 250px;
+    }
+    .left a{
+        display: none;
+    }
+    .select{
+        display: none;
+    }
+    .heading{
+        width: 100%;
+        height: auto;
+    }
+    .heading h2{
+        font-size: 30px;
+    }
+    .heading h6{
+        font-size: 16px;
+    }
+
+    /*First*/
+    .first{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .first-bg{
+        width: 90%;
+        height: 700px;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-left{
+        width: 90%;
+    }
+    .content-left p{
+        text-align: justify;
+    }
+    .content-right{
+        width: 90%;
+    }
+    .content-right p{
+        text-align: justify;
+    }
+    /* second */
+    .second{
+        width: 90%;
+        height:auto;
+        flex-direction: column;
+    }
+    #img1{
+        width: 100%;
+        height: 300px;
+    }
+    #
+
+    /* map */
+    .map{
+        width: 90%;
+        height: 550px;
+    }
+    .add{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Service */
+
+    .service{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .include{
+        width: 100%;
+    }
+    .include h3{
+        width: 100%;
+        font-size: 40px;
+        text-decoration: none;
+        padding-top: 20px;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    .include ul{
+        list-style: none;
+        align-items: center;
+        text-align: center;
+    }
+    .include ul li:hover{
+        color: black;
+    }
+    .include ul li{
+        font-size: 16px;
+    }
+    .not-include{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .not-include h3{
+        width: 100%;
+        font-size: 40px;
+        text-decoration: none;
+        padding-top: 20px;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    .not-include ul{
+        list-style: none;
+        align-items: center;
+        text-align: center;
+    }
+    .not-include ul li:hover{
+        color: black;
+    }
+    .not-include ul li{
+        font-size: 16px;
+    }
+
+    /* operator */
+
+    .operator{
+        width: 90%;
+        height: auto;
+    }
+    .heading-op{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-op h2{
+        font-size: 50px;
+        text-align: center;
+
+    }
+    .heading-op h2:hover{
+        border-bottom: 5px solid black;
+        color: rgb(126, 170, 188);
+    }
+    .op{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .right-op{
+        width: 100%;
+        height: auto;
+    }
+    .right-op iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .left-op{
+        width: 100%;
+        height: auto;
+    }
+    .left-op h6{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    /* tour gallery */
+
+    .tour-gallery{
+        width: 90%;
+        height: auto;
+    }
+    .heading-ga{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-ga h2{
+        font-size: 50px;
+        text-align: center;
+
+    }
+    .heading-ga h2:hover{
+        border-bottom: 5px solid black;
+        color: rgb(126, 170, 188);
+    }
+    .gallery{
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: repeat(6,400px);
+    }
+
+
+    /* reviews */
+
+    .reviews{
+        width: 90%;
+        height: auto;
+    }
+    .heading-re{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-re h2{
+        font-size: 50px;
+        text-align: center;
+
+    }
+    .heading-re h2:hover{
+        border-bottom: 5px solid black;
+        color: rgb(126, 170, 188);
+    }
+    .tour-review{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .left-re{
+        width: 100%;
+        height: auto;
+    }
+    .one{
+        width: 100%;
+        height:130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-re{
+        width: 100%;
+        height: auto;
+    }
+    .two{
+        width: 100%;
+        height:140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .re{
+        padding-left: 10px;
+    }
+
+
+    /* Frequently Asked Questions */
+
+    .freq-ques{
+        width: 90%;
+        height: auto;
+    }
+    .heading-freq{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-freq{
+        font-size: 35px;
+        text-align: center;
+
+    }
+    .heading-freq h2:hover{
+        border-bottom: 5px solid black;
+        color: rgb(126, 170, 188);
+    }
+    .ques-list{
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        padding: 20px;
+    }
+    .ques{
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+
+
+    /* Similar */
+    .similar{
+        width: 90%;
+        height: 600px;
+    }
+    .heading-simi{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading-simi h2{
+        font-size: 50px;
+        text-align: center;
+
+    }
+    .heading-simi h2:hover{
+        border-bottom: 5px solid black;
+        color: rgb(126, 170, 188);
+    }
+    .simi-pic{
+        grid-template-columns: repeat(3,31.3%);
+        grid-template-rows: repeat(1,300px);
+    }
+    .simi-de h3 br{
+        display: inline;
+    }
+   
+
+    /* Footer */
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+    .main-footer{
+        width: 90%;
+        height: auto; 
+    }
+    .sec2, .sec3{
+        display: none;
+    }   
+    .sec1{
+        width: 50%;
+    }
+    .sec1 span button{
+        width: 40%;
+        height: 50px;
+    }
+    .sec1 h3{
+        font-size: 30px;
+    }
+    .sec1 p{
+        font-size: 16px;
+    }
+    .sec4{
+        width: 50%;
+    
+    }
+    .icon-con{
+        width: 30%;
+    }
+    .icon-con i:hover{
+        color:rgb(126, 170, 188) ;
+    }
+ }
+
+
+ @media (max-width:400px) {
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+    }
+    .left{
+        width: 60%;
+        height: auto;
+    }
+    .icon-div{
+        height:180px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box{
+        width: 25px; 
+        height: 25px;
+    }
+    .box i{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .box i:hover{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    /* Operator */
+
+    .heading-op h2{
+        font-size: 35px;
+    }
+
+    /* Tour gallery */
+
+    .heading-ga h2{
+        font-size: 35px;
+    }
+
+    /* reviews */
+
+.reviews{
+    width: 90%;
+    height: auto;
+}
+.heading-re h2{
+    font-size: 35px;
+}
+.tour-review{
+    width: 100%;
+    height: auto;
+}
+.left-re{
+    width: 100%;
+    height: auto;
+}
+.one{
+    width: 100%;
+    /* height:170px; */
+    height: auto;
+}
+.right-re{
+    width: 100%;
+    height: auto;
+}
+.two{
+    width: 100%;
+    /* height: 170px; */
+    height: auto;
+}
+.logo{
+    width: 30%;
+    height: auto;
+}
+.logo img{
+    width: 90%;
+    height: auto;
+}
+.re{
+    width: 70%;
+    height: auto;
+}
+.re p{
+    font-size: 14px;
+}
+.re span i{
+    font-size: 15px;
+}
+
+
+/* Frequently ques  */
+
+.heading-freq h2{
+    font-size: 35px;
+}
+.ques h5{
+    font-size: 16px;
+}
+.ques p{
+    font-size: 14px;
+}
+
+
+/* similar */
+.similar{
+    width:90%;
+    height: auto;
+}
+.heading-simi h2{
+    font-size: 35px;
+}
+.simi-pic{
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(3,400px);
+}
+.simi-details{
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(3,80px);
+}
+.simi-de{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.simi-de h3 br{
+    display: none;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: auto;
+}
+.main-footer{
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec1{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sec1 span{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec1 span input{
+    width: 70%;
+    height: 50px;
+}
+.sec1 span button{
+    width: 28%;
+    height: 50px;
+    border: none;
+}
+.sec1 h2{
+    font-size: 30px;
+}
+.sec4{
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.sec4 h4{
+    display: none;
+}
+.icon-con{
+    width: 40px;
+    height: 40px;
+}
+
+}
+
+
+
+
+
+
+@media (max-width:330px) {
+    .nav{
+        height: 140px;
+        flex-direction: column;
+        /* padding-top: 20px; */
+    }
+    .left{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .heading{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading h2{
+        font-size: 20px;
+    }
+    .heading h6{
+        display: none;
+    }
+    .icon-div{
+        width: 80%;
+        height: 80px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+
+    .first-bg{
+        width: 90%;
+        height: 300px;
+    }
+    .content-left{
+        display: none;
+    }
+    .right-re{
+        display: none;
+    }
+    .left-re{
+        width: 100%;
+        height: auto;
+    }
+    .left-op{
+        height: auto;
+    }
+    .left-op h6 span{
+        display: none;
+    }
+    .tour-gallery{
+        height: auto;
+        display: flex;
+        padding-top: 0px;
+    }
+
+}
