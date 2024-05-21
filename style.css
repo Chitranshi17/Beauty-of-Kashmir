@@ -178,7 +178,7 @@ section{
 #img1{
     width: 32%;
     height: auto;
-    background: url('./image/hills.png');
+    background: url('./image/hillsImg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -388,7 +388,7 @@ section{
     background-repeat: no-repeat;
 }
 .tour:nth-child(5){
-    background: url('https:/source.unsplash.com/random/?kashmir night hills');
+    background: url('./image/hillsImg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
