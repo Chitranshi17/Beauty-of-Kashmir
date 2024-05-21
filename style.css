@@ -235,7 +235,7 @@ section{
 .include{
     width: 48%;
     height: auto;
-    background: url(./image/include.jpeg);
+    background: url("./image/include.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,7 +265,7 @@ section{
 .not-include{
     width: 48%;
     height: auto;
-    background: url(./image/not.JPG);
+    background: url("./image/not.JPG");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
