@@ -178,7 +178,7 @@ section{
 #img1{
     width: 32%;
     height: auto;
-    background: url('https:/source.unsplash.com/random/?kashmir hills');
+    background: url('./image/hills.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -187,7 +187,7 @@ section{
 #img2{
     width: 32%;
     height: auto;
-    background: url('https:/source.unsplash.com/random/?Kashmir river');
+    background: url('./image/river.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -196,7 +196,7 @@ section{
 #img3{
     width: 32%;
     height: auto;
-    background: url('https:/source.unsplash.com/random/?Kashmir adventure');
+    background: url('./image/adventure.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -364,25 +364,25 @@ section{
     font-size: 60px;
 }
 .tour:first-child{
-    background:url('https:/source.unsplash.com/random/?river');
+    background:url('./image/riverImg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .tour:nth-child(2){
-    background: url('https:/source.unsplash.com/random/?snow mountain');
+    background: url('./image/Mountain.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .tour:nth-child(3){
-    background: url('https:/source.unsplash.com/random/?tree in Kashmir');
+    background: url('./image/tree.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .tour:nth-child(4){
-    background: url('https:/source.unsplash.com/random/?kashmir night');
+    background: url('./image/nightImg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -394,7 +394,7 @@ section{
     background-repeat: no-repeat;
 }
 .tour:nth-child(6){
-    background: url('https:/source.unsplash.com/random/?kashmir night view');
+    background: url('./image/hillsImg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -537,21 +537,21 @@ section{
 }
 .simi:first-child{
     /* background: url('https:/source.unsplash.com/random/?kashmir night view'); */
-    background: url('https:/source.unsplash.com/random/?manali & Kullu');
+    background: url('./image/Manali.avif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
 }
 .simi:nth-child(2){
-    background: url('https:/source.unsplash.com/random/?Kedarnath&badrinath');
+    background: url('./image/Kedarnath.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
 }
 .simi:nth-child(3){
-    background: url('https:/source.unsplash.com/random/?rishikesh&haridwar');
+    background: url('./image/RishikeshImg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
